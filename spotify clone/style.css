@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin:0; 
+    padding:0;
+}
+
+nav{
+    font-family: 'Bruno Ace',cursive;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: None;
+    height:76px;
+    width:100%;
+    background-color:black;
+    color:white;
+}
+
+#headset{
+    position:absolute;
+    right:10px;
+    height:50px;
+    width:50px;
+    border: 1px solid black;
+}
+
+.brand img{
+    height:40px;
+    width:40px
+}   
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+
+}
+
+nav ul li{
+    padding: 0px 42px;
+    margin: 0px 8px; 
+}
+
+.container{
+    display:flex;
+    min-height: 75vh;
+    position: relative;
+    background-color: black;
+    color:white;
+    font-family: 'Bruno Ace',cursive;
+    margin:20px auto;
+    width: 75%;
+    border-radius: 12px 12px;
+    
+    
+}
+.bg-img{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 590px;
+    width: 50%; 
+  }
+  
+.MyProgressBar{
+    cursor:pointer;
+}
+
+.bottom{
+    position:sticky;
+    bottom:0;   
+    background-color: black;
+    height:120px;   
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.icons{
+    margin:17px;
+    cursor:pointer;
+}
+.bottom input{
+    height:10px;
+    width:60%;
+    opacity: 0 0.4s ease-in;
+}
+
+.icons i{
+ 
+    font-size:2rem;
+}
+
+.song-items{
+    display:flex;
+    background-color: white;
+    width:80%;
+    height:60px;
+    color:black;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin:12px 12px;
+    padding:5px;
+}
+
+.song-items img{
+    width:40px;
+    margin: 0 8px;
+    border-radius:34px;
+}
+.timestamp i{
+    cursor:pointer;
+}
+
+.songinfo img{
+    width:50px;
+    height:30px;
+    opacity:0;
+    transition: opacity 0.5s ease-in;
+}
+.songinfo{
+    width:200px;
+    height:15px;
+    position: absolute;
+    left:0;
+    margin:8px;
+
+}
+.songinfo span{
+    margin:0 5px;
+}
+.song-items i{
+    margin: 0 5px;
+}
+
+.song-list h1{
+    margin: 5px 8px;
+    color:rgb(56, 203, 154)
+}
+
+.anim{
+    width:50px;
+    height:50px;
+    border: 2px solid rgb(24, 26, 28);
+    opacity:0;    
+}
